@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <img src="download.jpeg">
+    <div class="wrapper">
+    <nav class="navbar"></nav>
+    <a href="#">home</a>
+    <a href="#">contact us</a>
+     <a href="#">visit</a>
+     <a href="#">payment</a>
+     <a href="#">type</a>
+</div>
+<div class="center">
+    <h1>welcome this wep page</h1>
+</div>
+
+    <h2>subscribe me</h2>
+<div class="me">
+    <div class="buttons">
+        <button>Explore More</button>
+        <button class="btn2">LOGING HERE</button>
+        </div>
+    </div>
+<style>
+    a
+    {
+        position: relative;
+        font-size: medium;
+        letter-spacing: 3px;
+        left: 710px;
+        text-decoration:none;
+        padding: 6px 13px;
+        font-size:20px;
+        transition: .4s;
+        font-family: fantasy;
+        color: blanchedalmond;
+    }
+    a:hover
+    {
+        background: red;
+        border-radius: 2px;
+    }
+    .navbar
+    {
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+    }
+    img
+    {
+     position: fixed;
+    left: 70px;
+    height: 80px;
+    width: 150PX;
+    top: 0;
+    }
+    .wrapper
+    {
+        background:url(pexels-photo-1141853.jpeg) no-repeat;
+        background-size:cover;
+        min-height: 100vh;
+    }
+    .center
+    {
+        position: absolute;
+        color: rgb(88, 111, 153);
+        text-shadow:0 0 30px crimson;
+        left:400px;
+        top: 200px;
+        font-size:25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h2 
+    {
+        position: absolute;
+        color: rgb(88, 111, 153 ) ;
+        left: 450px;
+        top: 250px;
+        font-size: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow:0 0 30px crimson;
+    }
+    .me .buttons{
+        position: absolute;
+        top: 390px;
+	margin: 35px 280px;
+    left: 180PX;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+    top: 0px;
+}
+.buttons .btn2{
+	margin-left: 25px;
+    top: 0;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+</style>
+    
+</body>
+</html>
